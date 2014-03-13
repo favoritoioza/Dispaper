@@ -33,7 +33,7 @@ public class ConsultaPapel extends javax.swing.JFrame {
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jPanel1 = new javax.swing.JPanel();
         jLabel13 = new javax.swing.JLabel();
-        __etqFecha2 = new javax.swing.JLabel();
+        __etqFechaConMov = new javax.swing.JLabel();
         jPanel7 = new javax.swing.JPanel();
         jPanel9 = new javax.swing.JPanel();
         __chkEntrDesdeMov = new javax.swing.JCheckBox();
@@ -88,6 +88,28 @@ public class ConsultaPapel extends javax.swing.JFrame {
         __CANCELARCONMOV = new javax.swing.JButton();
         __NUEVACONSULTAMOV = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
+        jLabel30 = new javax.swing.JLabel();
+        __etqFechaConDocu = new javax.swing.JLabel();
+        jPanel13 = new javax.swing.JPanel();
+        jLabel32 = new javax.swing.JLabel();
+        jLabel31 = new javax.swing.JLabel();
+        jLabel33 = new javax.swing.JLabel();
+        __etqDocuDesdeDocu = new javax.swing.JTextField();
+        __dateDesdeDocu = new com.toedter.calendar.JDateChooser();
+        __etqMoviDesdeDocu = new javax.swing.JTextField();
+        jPanel14 = new javax.swing.JPanel();
+        jLabel34 = new javax.swing.JLabel();
+        jLabel35 = new javax.swing.JLabel();
+        jLabel36 = new javax.swing.JLabel();
+        __etqDocuHastaDocu = new javax.swing.JTextField();
+        __dateHastaDocu = new com.toedter.calendar.JDateChooser();
+        __etqMoviHastaDocu = new javax.swing.JTextField();
+        __NUEVACONSULTAMOV1 = new javax.swing.JButton();
+        __CANCELARCONMOV1 = new javax.swing.JButton();
+        jButton10 = new javax.swing.JButton();
+        jLabel37 = new javax.swing.JLabel();
+        jLabel38 = new javax.swing.JLabel();
+        jLabel39 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
@@ -154,8 +176,8 @@ public class ConsultaPapel extends javax.swing.JFrame {
         jLabel13.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
         jLabel13.setText("Para Realizar la Consulta Ingresa los Parametros que Necesitas y Finaliza con la Tecla F8");
 
-        __etqFecha2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        __etqFecha2.setText("DD/MM/AAAA");
+        __etqFechaConMov.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        __etqFechaConMov.setText("DD/MM/AAAA");
 
         jPanel7.setBorder(javax.swing.BorderFactory.createTitledBorder("Desde:"));
 
@@ -656,7 +678,7 @@ public class ConsultaPapel extends javax.swing.JFrame {
                         .addGap(23, 23, 23)
                         .addComponent(jLabel13)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(__etqFecha2))
+                        .addComponent(__etqFechaConMov))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(__NUEVACONSULTAMOV)
@@ -672,7 +694,7 @@ public class ConsultaPapel extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel13)
-                    .addComponent(__etqFecha2))
+                    .addComponent(__etqFechaConMov))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -687,15 +709,201 @@ public class ConsultaPapel extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Movimiento", jPanel1);
 
+        jLabel30.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+        jLabel30.setText("Para Realizar la Consulta Ingresa los Parametros que Necesitas y Finaliza con la Tecla F8");
+
+        __etqFechaConDocu.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        __etqFechaConDocu.setText("DD/MM/AAAA");
+
+        jPanel13.setBorder(javax.swing.BorderFactory.createTitledBorder("Desde:"));
+
+        jLabel32.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+        jLabel32.setText("Documento:");
+
+        jLabel31.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+        jLabel31.setText("Fecha:");
+
+        jLabel33.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+        jLabel33.setText("Movimiento:");
+
+        __etqDocuDesdeDocu.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+        __etqDocuDesdeDocu.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                __etqDocuDesdeDocuActionPerformed(evt);
+            }
+        });
+
+        __etqMoviDesdeDocu.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+
+        javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
+        jPanel13.setLayout(jPanel13Layout);
+        jPanel13Layout.setHorizontalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel13Layout.createSequentialGroup()
+                .addGap(24, 24, 24)
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel33)
+                    .addComponent(jLabel31)
+                    .addComponent(jLabel32))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(__etqDocuDesdeDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(__dateDesdeDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(__etqMoviDesdeDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(42, Short.MAX_VALUE))
+        );
+        jPanel13Layout.setVerticalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel13Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel32)
+                    .addComponent(__etqDocuDesdeDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel31)
+                    .addComponent(__dateDesdeDocu, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel33)
+                    .addComponent(__etqMoviDesdeDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jPanel14.setBorder(javax.swing.BorderFactory.createTitledBorder("Hasta:"));
+
+        jLabel34.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+        jLabel34.setText("Documento:");
+
+        jLabel35.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+        jLabel35.setText("Fecha:");
+
+        jLabel36.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+        jLabel36.setText("Movimiento:");
+
+        __etqDocuHastaDocu.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+        __etqDocuHastaDocu.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                __etqDocuHastaDocuActionPerformed(evt);
+            }
+        });
+
+        __etqMoviHastaDocu.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+
+        javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
+        jPanel14.setLayout(jPanel14Layout);
+        jPanel14Layout.setHorizontalGroup(
+            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel14Layout.createSequentialGroup()
+                .addGap(24, 24, 24)
+                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel36)
+                    .addComponent(jLabel35)
+                    .addComponent(jLabel34))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(__etqDocuHastaDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(__dateHastaDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(__etqMoviHastaDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(37, Short.MAX_VALUE))
+        );
+        jPanel14Layout.setVerticalGroup(
+            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel14Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel34)
+                    .addComponent(__etqDocuHastaDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel35)
+                    .addComponent(__dateHastaDocu, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel36)
+                    .addComponent(__etqMoviHastaDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(26, Short.MAX_VALUE))
+        );
+
+        __NUEVACONSULTAMOV1.setText("Nueva Consulta");
+
+        __CANCELARCONMOV1.setText("Cancelar");
+        __CANCELARCONMOV1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                __CANCELARCONMOV1ActionPerformed(evt);
+            }
+        });
+
+        jButton10.setText("Salir");
+
+        jLabel37.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+        jLabel37.setText(">>>>>>>>>>");
+
+        jLabel38.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+        jLabel38.setText(">>>>>>>>>>");
+
+        jLabel39.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+        jLabel39.setText(">>>>>>>>>>");
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 880, Short.MAX_VALUE)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel30)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(__etqFechaConDocu))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(262, 262, 262)
+                                .addComponent(__NUEVACONSULTAMOV1)
+                                .addGap(18, 18, 18)
+                                .addComponent(__CANCELARCONMOV1)
+                                .addGap(18, 18, 18)
+                                .addComponent(jButton10))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(72, 72, 72)
+                                .addComponent(jPanel13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel37)
+                                    .addComponent(jLabel38)
+                                    .addComponent(jLabel39))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jPanel14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(0, 123, Short.MAX_VALUE)))
+                .addContainerGap())
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 466, Short.MAX_VALUE)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel30)
+                    .addComponent(__etqFechaConDocu))
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(61, 61, 61)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jPanel14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jPanel13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(89, 89, 89)
+                        .addComponent(jLabel37)
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel39)
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel38)))
+                .addGap(51, 51, 51)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(__CANCELARCONMOV1)
+                    .addComponent(jButton10)
+                    .addComponent(__NUEVACONSULTAMOV1))
+                .addContainerGap(129, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Documento", jPanel2);
@@ -867,6 +1075,18 @@ public class ConsultaPapel extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event___CANCELARCONMOVActionPerformed
 
+    private void __etqDocuDesdeDocuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___etqDocuDesdeDocuActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event___etqDocuDesdeDocuActionPerformed
+
+    private void __etqDocuHastaDocuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___etqDocuHastaDocuActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event___etqDocuHastaDocuActionPerformed
+
+    private void __CANCELARCONMOV1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___CANCELARCONMOV1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event___CANCELARCONMOV1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -904,7 +1124,9 @@ public class ConsultaPapel extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField __Alto_10;
     private javax.swing.JButton __CANCELARCONMOV;
+    private javax.swing.JButton __CANCELARCONMOV1;
     private javax.swing.JButton __NUEVACONSULTAMOV;
+    private javax.swing.JButton __NUEVACONSULTAMOV1;
     private javax.swing.JCheckBox __chkDevoluDesdeMov;
     private javax.swing.JCheckBox __chkDevoluHastaMov;
     private javax.swing.JCheckBox __chkEntrDesdeMov;
@@ -920,11 +1142,18 @@ public class ConsultaPapel extends javax.swing.JFrame {
     private javax.swing.JTextField __clvDesdeMov;
     private javax.swing.JComboBox __cmbPropiDesdeMovi;
     private javax.swing.JComboBox __cmbPropiHastaMovi;
+    private com.toedter.calendar.JDateChooser __dateDesdeDocu;
     private com.toedter.calendar.JDateChooser __dateDesdeMov;
+    private com.toedter.calendar.JDateChooser __dateHastaDocu;
     private com.toedter.calendar.JDateChooser __dateHastaMov;
+    private javax.swing.JTextField __etqDocuDesdeDocu;
     private javax.swing.JTextField __etqDocuDesdeMov;
+    private javax.swing.JTextField __etqDocuHastaDocu;
     private javax.swing.JTextField __etqDocuHastaMov;
-    private javax.swing.JLabel __etqFecha2;
+    private javax.swing.JLabel __etqFechaConDocu;
+    private javax.swing.JLabel __etqFechaConMov;
+    private javax.swing.JTextField __etqMoviDesdeDocu;
+    private javax.swing.JTextField __etqMoviHastaDocu;
     private javax.swing.JTextField __etqOrdenCompraDesdeMov;
     private javax.swing.JTextField __etqOrdenCompraHastaMov;
     private javax.swing.JTextField __etqOrdenProdDesdeMov;
@@ -933,6 +1162,7 @@ public class ConsultaPapel extends javax.swing.JFrame {
     private javax.swing.JTextField __etqPediHastaMov;
     private javax.swing.JTextField __etqProvDesdeMov;
     private javax.swing.JTextField __etqProvHastaMov;
+    private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton9;
     private javax.swing.JCheckBox jCheckBox7;
     private javax.swing.JCheckBox jCheckBox8;
@@ -954,6 +1184,16 @@ public class ConsultaPapel extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel28;
     private javax.swing.JLabel jLabel29;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
+    private javax.swing.JLabel jLabel39;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
@@ -973,6 +1213,8 @@ public class ConsultaPapel extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel13;
+    private javax.swing.JPanel jPanel14;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
