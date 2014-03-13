@@ -15,5 +15,7 @@ public class Main {
         //se ejecuta controlador
 //        new jControlador( new Login() ).iniciar();
         //new jControlador(new Splash()).iniciar();
+        
+        //IRVING OLDAYR
     }
 }
