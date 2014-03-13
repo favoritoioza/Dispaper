@@ -1112,7 +1112,7 @@
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
                                       <Component id="__CANCELARCONMOV1" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="jButton10" min="-2" max="-2" attributes="0"/>
+                                      <Component id="__SALIRDOCU" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
@@ -1162,7 +1162,7 @@
                       <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="__CANCELARCONMOV1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="__SALIRDOCU" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="__NUEVACONSULTAMOV1" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace pref="129" max="32767" attributes="0"/>
@@ -1396,7 +1396,7 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="__CANCELARCONMOV1ActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton10">
+            <Component class="javax.swing.JButton" name="__SALIRDOCU">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Salir"/>
               </Properties>

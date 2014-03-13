@@ -106,7 +106,7 @@ public class ConsultaPapel extends javax.swing.JFrame {
         __etqMoviHastaDocu = new javax.swing.JTextField();
         __NUEVACONSULTAMOV1 = new javax.swing.JButton();
         __CANCELARCONMOV1 = new javax.swing.JButton();
-        jButton10 = new javax.swing.JButton();
+        __SALIRDOCU = new javax.swing.JButton();
         jLabel37 = new javax.swing.JLabel();
         jLabel38 = new javax.swing.JLabel();
         jLabel39 = new javax.swing.JLabel();
@@ -833,7 +833,7 @@ public class ConsultaPapel extends javax.swing.JFrame {
             }
         });
 
-        jButton10.setText("Salir");
+        __SALIRDOCU.setText("Salir");
 
         jLabel37.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
         jLabel37.setText(">>>>>>>>>>");
@@ -863,7 +863,7 @@ public class ConsultaPapel extends javax.swing.JFrame {
                                 .addGap(18, 18, 18)
                                 .addComponent(__CANCELARCONMOV1)
                                 .addGap(18, 18, 18)
-                                .addComponent(jButton10))
+                                .addComponent(__SALIRDOCU))
                             .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addGap(72, 72, 72)
                                 .addComponent(jPanel13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -900,7 +900,7 @@ public class ConsultaPapel extends javax.swing.JFrame {
                 .addGap(51, 51, 51)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(__CANCELARCONMOV1)
-                    .addComponent(jButton10)
+                    .addComponent(__SALIRDOCU)
                     .addComponent(__NUEVACONSULTAMOV1))
                 .addContainerGap(129, Short.MAX_VALUE))
         );
@@ -1122,6 +1122,7 @@ public class ConsultaPapel extends javax.swing.JFrame {
     private javax.swing.JButton __CANCELARCONMOV1;
     private javax.swing.JButton __NUEVACONSULTAMOV;
     private javax.swing.JButton __NUEVACONSULTAMOV1;
+    private javax.swing.JButton __SALIRDOCU;
     private javax.swing.JCheckBox __chkDevoluDesdeMov;
     private javax.swing.JCheckBox __chkDevoluHastaMov;
     private javax.swing.JCheckBox __chkEntrDesdeMov;
@@ -1157,7 +1158,6 @@ public class ConsultaPapel extends javax.swing.JFrame {
     private javax.swing.JTextField __etqPediHastaMov;
     private javax.swing.JTextField __etqProvDesdeMov;
     private javax.swing.JTextField __etqProvHastaMov;
-    private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton9;
     private javax.swing.JCheckBox jCheckBox7;
     private javax.swing.JCheckBox jCheckBox8;
