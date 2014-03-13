@@ -28,65 +28,65 @@ public class MovimientosPapel extends javax.swing.JFrame {
 
         panel2 = new javax.swing.JTabbedPane();
         jPanel1 = new javax.swing.JPanel();
-        __etqFecha = new javax.swing.JLabel();
+        __etqFechaEnt = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        __Propietario = new javax.swing.JComboBox();
+        __cmbPropietarioEntr = new javax.swing.JComboBox();
         jPanel4 = new javax.swing.JPanel();
-        jCheckBox1 = new javax.swing.JCheckBox();
-        jCheckBox2 = new javax.swing.JCheckBox();
-        jCheckBox3 = new javax.swing.JCheckBox();
-        __etqNoMovi = new javax.swing.JLabel();
+        __chkTurno1Entr = new javax.swing.JCheckBox();
+        __chkTurno2Entr = new javax.swing.JCheckBox();
+        __chkTurno3Entr = new javax.swing.JCheckBox();
+        __etqNoMoviEntr = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-        __OrdenProduccion1 = new javax.swing.JTextField();
-        __OrdenCompra = new javax.swing.JTextField();
+        __OrdenProduccionEntr = new javax.swing.JTextField();
+        __OrdenCompraEntr = new javax.swing.JTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
+        __tablaEntrada = new javax.swing.JTable();
+        __ACEPTARENTRADA = new javax.swing.JButton();
+        __CANCELARENTRADA = new javax.swing.JButton();
+        __SALIRENTRADA = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
-        __etqFecha1 = new javax.swing.JLabel();
+        __etqFechaSal = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
-        __etqNoMovi1 = new javax.swing.JLabel();
-        __Propietario2 = new javax.swing.JComboBox();
+        __etqNoMoviSal = new javax.swing.JLabel();
+        __cmdPropietarioSal = new javax.swing.JComboBox();
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
-        __OrdenProduccion2 = new javax.swing.JTextField();
-        ____OrdenCompra1 = new javax.swing.JTextField();
+        __OrdenProduccionSal = new javax.swing.JTextField();
+        ___OrdenCompraSal = new javax.swing.JTextField();
         jPanel5 = new javax.swing.JPanel();
-        __Turno11 = new javax.swing.JCheckBox();
-        __Turno21 = new javax.swing.JCheckBox();
-        __Turno31 = new javax.swing.JCheckBox();
+        __chkTurno1Sal = new javax.swing.JCheckBox();
+        __chkTurno2Sal = new javax.swing.JCheckBox();
+        __chkTurno3Sal = new javax.swing.JCheckBox();
         jScrollPane2 = new javax.swing.JScrollPane();
-        jTable2 = new javax.swing.JTable();
-        __ACEPTAR = new javax.swing.JButton();
-        __CANCELAR = new javax.swing.JButton();
-        __SALIDAS = new javax.swing.JButton();
+        __tablaSalida = new javax.swing.JTable();
+        __ACEPTARSALIDA = new javax.swing.JButton();
+        __CANCELARSALIDA = new javax.swing.JButton();
+        __SALIRSALIDA = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
-        __etqFecha2 = new javax.swing.JLabel();
+        __etqFechaDev = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
-        __etqNoMovi2 = new javax.swing.JLabel();
-        __TipoPapel2 = new javax.swing.JComboBox();
+        __etqNoMoviDev = new javax.swing.JLabel();
+        __cmbTipoPapelDev = new javax.swing.JComboBox();
         jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
-        __Alto_4 = new javax.swing.JTextField();
-        __OrdenCompra3 = new javax.swing.JTextField();
+        __OrdenProduccionDev = new javax.swing.JTextField();
+        __OrdenCompraDev = new javax.swing.JTextField();
         jPanel6 = new javax.swing.JPanel();
-        jCheckBox7 = new javax.swing.JCheckBox();
-        jCheckBox8 = new javax.swing.JCheckBox();
-        jCheckBox9 = new javax.swing.JCheckBox();
+        __chkTurno1Dev = new javax.swing.JCheckBox();
+        __chkTurno2Dev = new javax.swing.JCheckBox();
+        __chkTurno3Dev = new javax.swing.JCheckBox();
         jScrollPane3 = new javax.swing.JScrollPane();
-        jTable3 = new javax.swing.JTable();
-        jButton7 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
-        jButton9 = new javax.swing.JButton();
+        __tablaDevoluciones = new javax.swing.JTable();
+        __ACEPTARDEVOLUCIONES = new javax.swing.JButton();
+        __CANCELARDEVOLUCIONES = new javax.swing.JButton();
+        __SALIRDEVOLUCIONES = new javax.swing.JButton();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
@@ -105,8 +105,8 @@ public class MovimientosPapel extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        __etqFecha.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        __etqFecha.setText("DD/MM/AAAA");
+        __etqFechaEnt.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        __etqFechaEnt.setText("DD/MM/AAAA");
 
         jLabel2.setFont(new java.awt.Font("Papyrus", 1, 24)); // NOI18N
         jLabel2.setText("Entrada de Papel");
@@ -114,33 +114,33 @@ public class MovimientosPapel extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
         jLabel4.setText("No. de Movimiento");
 
-        __Propietario.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Selecciona....." }));
-        __Propietario.addActionListener(new java.awt.event.ActionListener() {
+        __cmbPropietarioEntr.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Selecciona....." }));
+        __cmbPropietarioEntr.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                __PropietarioActionPerformed(evt);
+                __cmbPropietarioEntrActionPerformed(evt);
             }
         });
 
         jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder("Turno:"));
 
-        jCheckBox1.setText("Turno 1");
-        jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
+        __chkTurno1Entr.setText("Turno 1");
+        __chkTurno1Entr.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox1ActionPerformed(evt);
+                __chkTurno1EntrActionPerformed(evt);
             }
         });
 
-        jCheckBox2.setText("Turno 2");
-        jCheckBox2.addActionListener(new java.awt.event.ActionListener() {
+        __chkTurno2Entr.setText("Turno 2");
+        __chkTurno2Entr.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox2ActionPerformed(evt);
+                __chkTurno2EntrActionPerformed(evt);
             }
         });
 
-        jCheckBox3.setText("Turno 3");
-        jCheckBox3.addActionListener(new java.awt.event.ActionListener() {
+        __chkTurno3Entr.setText("Turno 3");
+        __chkTurno3Entr.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox3ActionPerformed(evt);
+                __chkTurno3EntrActionPerformed(evt);
             }
         });
 
@@ -151,22 +151,22 @@ public class MovimientosPapel extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
                 .addContainerGap(31, Short.MAX_VALUE)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jCheckBox3)
-                    .addComponent(jCheckBox2)
-                    .addComponent(jCheckBox1))
+                    .addComponent(__chkTurno3Entr)
+                    .addComponent(__chkTurno2Entr)
+                    .addComponent(__chkTurno1Entr))
                 .addGap(28, 28, 28))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
-                .addComponent(jCheckBox1)
+                .addComponent(__chkTurno1Entr)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox2)
+                .addComponent(__chkTurno2Entr)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jCheckBox3))
+                .addComponent(__chkTurno3Entr))
         );
 
-        __etqNoMovi.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        __etqNoMoviEntr.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         jLabel5.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
         jLabel5.setText("Orden de Compra:");
@@ -177,11 +177,11 @@ public class MovimientosPapel extends javax.swing.JFrame {
         jLabel7.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
         jLabel7.setText("Orden de Producción:");
 
-        __OrdenProduccion1.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+        __OrdenProduccionEntr.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
 
-        __OrdenCompra.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+        __OrdenCompraEntr.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
 
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+        __tablaEntrada.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null},
@@ -192,18 +192,18 @@ public class MovimientosPapel extends javax.swing.JFrame {
                 "#", "Clave de Papel", "Cantidad", "Tipo de Llegada", " Presentación", "Costo (Kg/Millar)", "Total"
             }
         ));
-        jScrollPane1.setViewportView(jTable1);
+        jScrollPane1.setViewportView(__tablaEntrada);
 
-        jButton1.setText("Aceptar");
+        __ACEPTARENTRADA.setText("Aceptar");
 
-        jButton2.setText("Cancelar");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        __CANCELARENTRADA.setText("Cancelar");
+        __CANCELARENTRADA.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                __CANCELARENTRADAActionPerformed(evt);
             }
         });
 
-        jButton3.setText("Salir");
+        __SALIRENTRADA.setText("Salir");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -223,28 +223,28 @@ public class MovimientosPapel extends javax.swing.JFrame {
                                     .addComponent(jLabel4))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(__Propietario, 0, 108, Short.MAX_VALUE)
-                                    .addComponent(__etqNoMovi, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                    .addComponent(__cmbPropietarioEntr, 0, 108, Short.MAX_VALUE)
+                                    .addComponent(__etqNoMoviEntr, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addComponent(jLabel7)
                                     .addComponent(jLabel5))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(__OrdenCompra, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(__OrdenProduccion1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                    .addComponent(__OrdenCompraEntr, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(__OrdenProduccionEntr, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(__etqFecha))))
+                            .addComponent(__etqFechaEnt))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton1)
+                .addComponent(__ACEPTARENTRADA)
                 .addGap(18, 18, 18)
-                .addComponent(jButton2)
+                .addComponent(__CANCELARENTRADA)
                 .addGap(18, 18, 18)
-                .addComponent(jButton3)
+                .addComponent(__SALIRENTRADA)
                 .addGap(36, 36, 36))
         );
         jPanel1Layout.setVerticalGroup(
@@ -258,34 +258,34 @@ public class MovimientosPapel extends javax.swing.JFrame {
                                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
                                 .addComponent(jLabel4))
-                            .addComponent(__etqNoMovi, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(__etqNoMoviEntr, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(__OrdenProduccion1, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(__OrdenProduccionEntr, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addComponent(jLabel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                         .addGap(18, 18, 18)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(__OrdenCompra, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(__OrdenCompraEntr, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel5)
-                            .addComponent(__Propietario, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(__cmbPropietarioEntr, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel6))
                         .addGap(14, 14, 14))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(__etqFecha)
+                        .addComponent(__etqFechaEnt)
                         .addGap(26, 26, 26)
                         .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 286, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1)
-                    .addComponent(jButton2)
-                    .addComponent(jButton3))
+                    .addComponent(__ACEPTARENTRADA)
+                    .addComponent(__CANCELARENTRADA)
+                    .addComponent(__SALIRENTRADA))
                 .addGap(14, 14, 14))
         );
 
         panel2.addTab("1. Entrada", jPanel1);
 
-        __etqFecha1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        __etqFecha1.setText("DD/MM/AAAA");
+        __etqFechaSal.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        __etqFechaSal.setText("DD/MM/AAAA");
 
         jLabel3.setFont(new java.awt.Font("Papyrus", 1, 24)); // NOI18N
         jLabel3.setText("Salida de Papel");
@@ -293,12 +293,12 @@ public class MovimientosPapel extends javax.swing.JFrame {
         jLabel8.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
         jLabel8.setText("No. de Movimiento");
 
-        __etqNoMovi1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        __etqNoMoviSal.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        __Propietario2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Selecciona....." }));
-        __Propietario2.addActionListener(new java.awt.event.ActionListener() {
+        __cmdPropietarioSal.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Selecciona....." }));
+        __cmdPropietarioSal.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                __Propietario2ActionPerformed(evt);
+                __cmdPropietarioSalActionPerformed(evt);
             }
         });
 
@@ -311,30 +311,30 @@ public class MovimientosPapel extends javax.swing.JFrame {
         jLabel11.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
         jLabel11.setText("Orden de Producción:");
 
-        __OrdenProduccion2.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+        __OrdenProduccionSal.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
 
-        ____OrdenCompra1.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+        ___OrdenCompraSal.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
 
         jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder("Turno:"));
 
-        __Turno11.setText("Turno 1");
-        __Turno11.addActionListener(new java.awt.event.ActionListener() {
+        __chkTurno1Sal.setText("Turno 1");
+        __chkTurno1Sal.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                __Turno11ActionPerformed(evt);
+                __chkTurno1SalActionPerformed(evt);
             }
         });
 
-        __Turno21.setText("Turno 2");
-        __Turno21.addActionListener(new java.awt.event.ActionListener() {
+        __chkTurno2Sal.setText("Turno 2");
+        __chkTurno2Sal.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                __Turno21ActionPerformed(evt);
+                __chkTurno2SalActionPerformed(evt);
             }
         });
 
-        __Turno31.setText("Turno 3");
-        __Turno31.addActionListener(new java.awt.event.ActionListener() {
+        __chkTurno3Sal.setText("Turno 3");
+        __chkTurno3Sal.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                __Turno31ActionPerformed(evt);
+                __chkTurno3SalActionPerformed(evt);
             }
         });
 
@@ -345,22 +345,22 @@ public class MovimientosPapel extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
                 .addContainerGap(31, Short.MAX_VALUE)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(__Turno31)
-                    .addComponent(__Turno21)
-                    .addComponent(__Turno11))
+                    .addComponent(__chkTurno3Sal)
+                    .addComponent(__chkTurno2Sal)
+                    .addComponent(__chkTurno1Sal))
                 .addGap(28, 28, 28))
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
-                .addComponent(__Turno11)
+                .addComponent(__chkTurno1Sal)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(__Turno21)
+                .addComponent(__chkTurno2Sal)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(__Turno31))
+                .addComponent(__chkTurno3Sal))
         );
 
-        jTable2.setModel(new javax.swing.table.DefaultTableModel(
+        __tablaSalida.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null},
@@ -371,18 +371,18 @@ public class MovimientosPapel extends javax.swing.JFrame {
                 "#", "Clave de Papel", "Cantidad", "Tipo de Salida", " Presentación", "Costo (Kg/Millar)", "Total"
             }
         ));
-        jScrollPane2.setViewportView(jTable2);
+        jScrollPane2.setViewportView(__tablaSalida);
 
-        __ACEPTAR.setText("Aceptar");
+        __ACEPTARSALIDA.setText("Aceptar");
 
-        __CANCELAR.setText("Cancelar");
-        __CANCELAR.addActionListener(new java.awt.event.ActionListener() {
+        __CANCELARSALIDA.setText("Cancelar");
+        __CANCELARSALIDA.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                __CANCELARActionPerformed(evt);
+                __CANCELARSALIDAActionPerformed(evt);
             }
         });
 
-        __SALIDAS.setText("Salir");
+        __SALIRSALIDA.setText("Salir");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -402,28 +402,28 @@ public class MovimientosPapel extends javax.swing.JFrame {
                                     .addComponent(jLabel8))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(__Propietario2, 0, 108, Short.MAX_VALUE)
-                                    .addComponent(__etqNoMovi1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                    .addComponent(__cmdPropietarioSal, 0, 108, Short.MAX_VALUE)
+                                    .addComponent(__etqNoMoviSal, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addComponent(jLabel11)
                                     .addComponent(jLabel10))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(____OrdenCompra1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(__OrdenProduccion2, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                    .addComponent(___OrdenCompraSal, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(__OrdenProduccionSal, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(__etqFecha1))))
+                            .addComponent(__etqFechaSal))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(__ACEPTAR)
+                .addComponent(__ACEPTARSALIDA)
                 .addGap(18, 18, 18)
-                .addComponent(__CANCELAR)
+                .addComponent(__CANCELARSALIDA)
                 .addGap(18, 18, 18)
-                .addComponent(__SALIDAS)
+                .addComponent(__SALIRSALIDA)
                 .addGap(36, 36, 36))
         );
         jPanel2Layout.setVerticalGroup(
@@ -437,34 +437,34 @@ public class MovimientosPapel extends javax.swing.JFrame {
                                 .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
                                 .addComponent(jLabel8))
-                            .addComponent(__etqNoMovi1, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(__etqNoMoviSal, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(__OrdenProduccion2, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(__OrdenProduccionSal, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addComponent(jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                         .addGap(18, 18, 18)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(____OrdenCompra1, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(___OrdenCompraSal, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel10)
-                            .addComponent(__Propietario2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(__cmdPropietarioSal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel9))
                         .addGap(14, 14, 14))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(__etqFecha1)
+                        .addComponent(__etqFechaSal)
                         .addGap(26, 26, 26)
                         .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 286, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(__ACEPTAR)
-                    .addComponent(__CANCELAR)
-                    .addComponent(__SALIDAS))
+                    .addComponent(__ACEPTARSALIDA)
+                    .addComponent(__CANCELARSALIDA)
+                    .addComponent(__SALIRSALIDA))
                 .addGap(14, 14, 14))
         );
 
         panel2.addTab("2. Salidas", jPanel2);
 
-        __etqFecha2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        __etqFecha2.setText("DD/MM/AAAA");
+        __etqFechaDev.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        __etqFechaDev.setText("DD/MM/AAAA");
 
         jLabel12.setFont(new java.awt.Font("Papyrus", 1, 24)); // NOI18N
         jLabel12.setText("Devolución de Papel");
@@ -472,12 +472,12 @@ public class MovimientosPapel extends javax.swing.JFrame {
         jLabel13.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
         jLabel13.setText("No. de Movimiento");
 
-        __etqNoMovi2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        __etqNoMoviDev.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        __TipoPapel2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Selecciona....." }));
-        __TipoPapel2.addActionListener(new java.awt.event.ActionListener() {
+        __cmbTipoPapelDev.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Selecciona....." }));
+        __cmbTipoPapelDev.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                __TipoPapel2ActionPerformed(evt);
+                __cmbTipoPapelDevActionPerformed(evt);
             }
         });
 
@@ -490,30 +490,30 @@ public class MovimientosPapel extends javax.swing.JFrame {
         jLabel16.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
         jLabel16.setText("Orden de Producción:");
 
-        __Alto_4.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+        __OrdenProduccionDev.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
 
-        __OrdenCompra3.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+        __OrdenCompraDev.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
 
         jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder("Turno:"));
 
-        jCheckBox7.setText("Turno 1");
-        jCheckBox7.addActionListener(new java.awt.event.ActionListener() {
+        __chkTurno1Dev.setText("Turno 1");
+        __chkTurno1Dev.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox7ActionPerformed(evt);
+                __chkTurno1DevActionPerformed(evt);
             }
         });
 
-        jCheckBox8.setText("Turno 2");
-        jCheckBox8.addActionListener(new java.awt.event.ActionListener() {
+        __chkTurno2Dev.setText("Turno 2");
+        __chkTurno2Dev.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox8ActionPerformed(evt);
+                __chkTurno2DevActionPerformed(evt);
             }
         });
 
-        jCheckBox9.setText("Turno 3");
-        jCheckBox9.addActionListener(new java.awt.event.ActionListener() {
+        __chkTurno3Dev.setText("Turno 3");
+        __chkTurno3Dev.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox9ActionPerformed(evt);
+                __chkTurno3DevActionPerformed(evt);
             }
         });
 
@@ -524,22 +524,22 @@ public class MovimientosPapel extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
                 .addContainerGap(31, Short.MAX_VALUE)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jCheckBox9)
-                    .addComponent(jCheckBox8)
-                    .addComponent(jCheckBox7))
+                    .addComponent(__chkTurno3Dev)
+                    .addComponent(__chkTurno2Dev)
+                    .addComponent(__chkTurno1Dev))
                 .addGap(28, 28, 28))
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel6Layout.createSequentialGroup()
-                .addComponent(jCheckBox7)
+                .addComponent(__chkTurno1Dev)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jCheckBox8)
+                .addComponent(__chkTurno2Dev)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jCheckBox9))
+                .addComponent(__chkTurno3Dev))
         );
 
-        jTable3.setModel(new javax.swing.table.DefaultTableModel(
+        __tablaDevoluciones.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null},
@@ -550,18 +550,18 @@ public class MovimientosPapel extends javax.swing.JFrame {
                 "#", "Clave de Papel", "Cantidad", "Tipo de Devolucion", " Presentación", "Costo (Kg/Millar)", "Total"
             }
         ));
-        jScrollPane3.setViewportView(jTable3);
+        jScrollPane3.setViewportView(__tablaDevoluciones);
 
-        jButton7.setText("Aceptar");
+        __ACEPTARDEVOLUCIONES.setText("Aceptar");
 
-        jButton8.setText("Cancelar");
-        jButton8.addActionListener(new java.awt.event.ActionListener() {
+        __CANCELARDEVOLUCIONES.setText("Cancelar");
+        __CANCELARDEVOLUCIONES.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton8ActionPerformed(evt);
+                __CANCELARDEVOLUCIONESActionPerformed(evt);
             }
         });
 
-        jButton9.setText("Salir");
+        __SALIRDEVOLUCIONES.setText("Salir");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -581,28 +581,28 @@ public class MovimientosPapel extends javax.swing.JFrame {
                                     .addComponent(jLabel13))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(__TipoPapel2, 0, 108, Short.MAX_VALUE)
-                                    .addComponent(__etqNoMovi2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                    .addComponent(__cmbTipoPapelDev, 0, 108, Short.MAX_VALUE)
+                                    .addComponent(__etqNoMoviDev, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addComponent(jLabel16)
                                     .addComponent(jLabel15))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(__OrdenCompra3, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(__Alto_4, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                    .addComponent(__OrdenCompraDev, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(__OrdenProduccionDev, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(__etqFecha2))))
+                            .addComponent(__etqFechaDev))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton7)
+                .addComponent(__ACEPTARDEVOLUCIONES)
                 .addGap(18, 18, 18)
-                .addComponent(jButton8)
+                .addComponent(__CANCELARDEVOLUCIONES)
                 .addGap(18, 18, 18)
-                .addComponent(jButton9)
+                .addComponent(__SALIRDEVOLUCIONES)
                 .addGap(36, 36, 36))
         );
         jPanel3Layout.setVerticalGroup(
@@ -616,27 +616,27 @@ public class MovimientosPapel extends javax.swing.JFrame {
                                 .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
                                 .addComponent(jLabel13))
-                            .addComponent(__etqNoMovi2, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(__etqNoMoviDev, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(__Alto_4, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(__OrdenProduccionDev, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addComponent(jLabel16, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                         .addGap(18, 18, 18)
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(__OrdenCompra3, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(__OrdenCompraDev, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel15)
-                            .addComponent(__TipoPapel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(__cmbTipoPapelDev, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel14))
                         .addGap(14, 14, 14))
                     .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addComponent(__etqFecha2)
+                        .addComponent(__etqFechaDev)
                         .addGap(26, 26, 26)
                         .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 286, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton7)
-                    .addComponent(jButton8)
-                    .addComponent(jButton9))
+                    .addComponent(__ACEPTARDEVOLUCIONES)
+                    .addComponent(__CANCELARDEVOLUCIONES)
+                    .addComponent(__SALIRDEVOLUCIONES))
                 .addGap(14, 14, 14))
         );
 
@@ -737,65 +737,65 @@ public class MovimientosPapel extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jMenuItem12ActionPerformed
 
-    private void __PropietarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___PropietarioActionPerformed
+    private void __cmbPropietarioEntrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___cmbPropietarioEntrActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event___PropietarioActionPerformed
+    }//GEN-LAST:event___cmbPropietarioEntrActionPerformed
 
-    private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox1ActionPerformed
+    private void __chkTurno1EntrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___chkTurno1EntrActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox1ActionPerformed
+    }//GEN-LAST:event___chkTurno1EntrActionPerformed
 
-    private void jCheckBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox2ActionPerformed
+    private void __chkTurno2EntrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___chkTurno2EntrActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox2ActionPerformed
+    }//GEN-LAST:event___chkTurno2EntrActionPerformed
 
-    private void jCheckBox3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox3ActionPerformed
+    private void __chkTurno3EntrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___chkTurno3EntrActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox3ActionPerformed
+    }//GEN-LAST:event___chkTurno3EntrActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void __CANCELARENTRADAActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___CANCELARENTRADAActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event___CANCELARENTRADAActionPerformed
 
-    private void __Propietario2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___Propietario2ActionPerformed
+    private void __cmdPropietarioSalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___cmdPropietarioSalActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event___Propietario2ActionPerformed
+    }//GEN-LAST:event___cmdPropietarioSalActionPerformed
 
-    private void __Turno11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___Turno11ActionPerformed
+    private void __chkTurno1SalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___chkTurno1SalActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event___Turno11ActionPerformed
+    }//GEN-LAST:event___chkTurno1SalActionPerformed
 
-    private void __Turno21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___Turno21ActionPerformed
+    private void __chkTurno2SalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___chkTurno2SalActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event___Turno21ActionPerformed
+    }//GEN-LAST:event___chkTurno2SalActionPerformed
 
-    private void __Turno31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___Turno31ActionPerformed
+    private void __chkTurno3SalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___chkTurno3SalActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event___Turno31ActionPerformed
+    }//GEN-LAST:event___chkTurno3SalActionPerformed
 
-    private void __CANCELARActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___CANCELARActionPerformed
+    private void __CANCELARSALIDAActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___CANCELARSALIDAActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event___CANCELARActionPerformed
+    }//GEN-LAST:event___CANCELARSALIDAActionPerformed
 
-    private void __TipoPapel2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___TipoPapel2ActionPerformed
+    private void __cmbTipoPapelDevActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___cmbTipoPapelDevActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event___TipoPapel2ActionPerformed
+    }//GEN-LAST:event___cmbTipoPapelDevActionPerformed
 
-    private void jCheckBox7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox7ActionPerformed
+    private void __chkTurno1DevActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___chkTurno1DevActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox7ActionPerformed
+    }//GEN-LAST:event___chkTurno1DevActionPerformed
 
-    private void jCheckBox8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox8ActionPerformed
+    private void __chkTurno2DevActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___chkTurno2DevActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox8ActionPerformed
+    }//GEN-LAST:event___chkTurno2DevActionPerformed
 
-    private void jCheckBox9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox9ActionPerformed
+    private void __chkTurno3DevActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___chkTurno3DevActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox9ActionPerformed
+    }//GEN-LAST:event___chkTurno3DevActionPerformed
 
-    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+    private void __CANCELARDEVOLUCIONESActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___CANCELARDEVOLUCIONESActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton8ActionPerformed
+    }//GEN-LAST:event___CANCELARDEVOLUCIONESActionPerformed
 
     /**
      * @param args the command line arguments
@@ -832,39 +832,42 @@ public class MovimientosPapel extends javax.swing.JFrame {
         });
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton __ACEPTAR;
-    private javax.swing.JTextField __Alto_4;
-    private javax.swing.JButton __CANCELAR;
-    private javax.swing.JTextField __OrdenCompra;
-    private javax.swing.JTextField __OrdenCompra3;
-    private javax.swing.JTextField __OrdenProduccion1;
-    private javax.swing.JTextField __OrdenProduccion2;
-    private javax.swing.JComboBox __Propietario;
-    private javax.swing.JComboBox __Propietario2;
-    private javax.swing.JButton __SALIDAS;
-    private javax.swing.JComboBox __TipoPapel2;
-    private javax.swing.JCheckBox __Turno11;
-    private javax.swing.JCheckBox __Turno21;
-    private javax.swing.JCheckBox __Turno31;
-    private javax.swing.JTextField ____OrdenCompra1;
-    private javax.swing.JLabel __etqFecha;
-    private javax.swing.JLabel __etqFecha1;
-    private javax.swing.JLabel __etqFecha2;
-    private javax.swing.JLabel __etqNoMovi;
-    private javax.swing.JLabel __etqNoMovi1;
-    private javax.swing.JLabel __etqNoMovi2;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
-    private javax.swing.JCheckBox jCheckBox1;
-    private javax.swing.JCheckBox jCheckBox2;
-    private javax.swing.JCheckBox jCheckBox3;
-    private javax.swing.JCheckBox jCheckBox7;
-    private javax.swing.JCheckBox jCheckBox8;
-    private javax.swing.JCheckBox jCheckBox9;
+    private javax.swing.JButton __ACEPTARDEVOLUCIONES;
+    private javax.swing.JButton __ACEPTARENTRADA;
+    private javax.swing.JButton __ACEPTARSALIDA;
+    private javax.swing.JButton __CANCELARDEVOLUCIONES;
+    private javax.swing.JButton __CANCELARENTRADA;
+    private javax.swing.JButton __CANCELARSALIDA;
+    private javax.swing.JTextField __OrdenCompraDev;
+    private javax.swing.JTextField __OrdenCompraEntr;
+    private javax.swing.JTextField __OrdenProduccionDev;
+    private javax.swing.JTextField __OrdenProduccionEntr;
+    private javax.swing.JTextField __OrdenProduccionSal;
+    private javax.swing.JButton __SALIRDEVOLUCIONES;
+    private javax.swing.JButton __SALIRENTRADA;
+    private javax.swing.JButton __SALIRSALIDA;
+    private javax.swing.JTextField ___OrdenCompraSal;
+    private javax.swing.JCheckBox __chkTurno1Dev;
+    private javax.swing.JCheckBox __chkTurno1Entr;
+    private javax.swing.JCheckBox __chkTurno1Sal;
+    private javax.swing.JCheckBox __chkTurno2Dev;
+    private javax.swing.JCheckBox __chkTurno2Entr;
+    private javax.swing.JCheckBox __chkTurno2Sal;
+    private javax.swing.JCheckBox __chkTurno3Dev;
+    private javax.swing.JCheckBox __chkTurno3Entr;
+    private javax.swing.JCheckBox __chkTurno3Sal;
+    private javax.swing.JComboBox __cmbPropietarioEntr;
+    private javax.swing.JComboBox __cmbTipoPapelDev;
+    private javax.swing.JComboBox __cmdPropietarioSal;
+    private javax.swing.JLabel __etqFechaDev;
+    private javax.swing.JLabel __etqFechaEnt;
+    private javax.swing.JLabel __etqFechaSal;
+    private javax.swing.JLabel __etqNoMoviDev;
+    private javax.swing.JLabel __etqNoMoviEntr;
+    private javax.swing.JLabel __etqNoMoviSal;
+    private javax.swing.JTable __tablaDevoluciones;
+    private javax.swing.JTable __tablaEntrada;
+    private javax.swing.JTable __tablaSalida;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
@@ -904,9 +907,6 @@ public class MovimientosPapel extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
-    private javax.swing.JTable jTable1;
-    private javax.swing.JTable jTable2;
-    private javax.swing.JTable jTable3;
     private javax.swing.JTabbedPane panel2;
     // End of variables declaration//GEN-END:variables
 }
