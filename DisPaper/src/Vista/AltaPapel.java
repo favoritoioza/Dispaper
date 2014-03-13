@@ -26,8 +26,8 @@ public class AltaPapel extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        buttonGroup1 = new javax.swing.ButtonGroup();
-        buttonGroup2 = new javax.swing.ButtonGroup();
+        __grpClasePapel = new javax.swing.ButtonGroup();
+        __grpCaras = new javax.swing.ButtonGroup();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
@@ -87,10 +87,10 @@ public class AltaPapel extends javax.swing.JFrame {
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Clase de Papel"));
 
-        buttonGroup1.add(__Bobina);
+        __grpClasePapel.add(__Bobina);
         __Bobina.setText("Bobina");
 
-        buttonGroup1.add(__Hoja);
+        __grpClasePapel.add(__Hoja);
         __Hoja.setText("Hoja");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -156,7 +156,7 @@ public class AltaPapel extends javax.swing.JFrame {
         jLabel9.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
         jLabel9.setText("El Papel Tiene");
 
-        buttonGroup2.add(__Cara1);
+        __grpCaras.add(__Cara1);
         __Cara1.setText("1 Cara");
         __Cara1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -164,7 +164,7 @@ public class AltaPapel extends javax.swing.JFrame {
             }
         });
 
-        buttonGroup2.add(__Cara2);
+        __grpCaras.add(__Cara2);
         __Cara2.setText("2 Caras");
 
         jLabel10.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
@@ -584,8 +584,8 @@ public class AltaPapel extends javax.swing.JFrame {
     private javax.swing.JLabel __etqNewNombre;
     private javax.swing.JLabel __etqNewPropiedad;
     private javax.swing.JLabel __etqcm_;
-    private javax.swing.ButtonGroup buttonGroup1;
-    private javax.swing.ButtonGroup buttonGroup2;
+    private javax.swing.ButtonGroup __grpCaras;
+    private javax.swing.ButtonGroup __grpClasePapel;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
