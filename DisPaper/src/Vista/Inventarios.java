@@ -66,10 +66,13 @@ public class Inventarios extends javax.swing.JFrame {
 
         jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder("Selecciona la clase de Papel:"));
 
+        __grpClasePapel.add(__OptBobina);
         __OptBobina.setText("Bobina");
 
+        __grpClasePapel.add(__OptHoja);
         __OptHoja.setText("Hoja");
 
+        __grpClasePapel.add(__OptAmbos);
         __OptAmbos.setText("Ambos");
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
