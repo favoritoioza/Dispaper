@@ -44,7 +44,7 @@
                       <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
                       <Component id="__ACEPTARCORREO" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="111" pref="111" max="-2" attributes="0"/>
-                      <Component id="__SALIRCORREO" min="-2" max="-2" attributes="0"/>
+                      <Component id="__SALIRCORRE" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace pref="18" max="32767" attributes="0"/>
@@ -70,7 +70,7 @@
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="__ACEPTARCORREO" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="__SALIRCORREO" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="__SALIRCORRE" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="32" max="32767" attributes="0"/>
           </Group>
@@ -172,7 +172,7 @@
         <Property name="text" type="java.lang.String" value="Aceptar"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="__SALIRCORREO">
+    <Component class="javax.swing.JButton" name="__SALIRCORRE">
       <Properties>
         <Property name="text" type="java.lang.String" value="Salir"/>
       </Properties>

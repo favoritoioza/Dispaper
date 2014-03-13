@@ -35,7 +35,7 @@ public class Correo extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         __correo = new javax.swing.JTextField();
         __ACEPTARCORREO = new javax.swing.JButton();
-        __SALIRCORREO = new javax.swing.JButton();
+        __SALIRCORRE = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -88,7 +88,7 @@ public class Correo extends javax.swing.JFrame {
 
         __ACEPTARCORREO.setText("Aceptar");
 
-        __SALIRCORREO.setText("Salir");
+        __SALIRCORRE.setText("Salir");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -108,7 +108,7 @@ public class Correo extends javax.swing.JFrame {
                         .addGap(71, 71, 71)
                         .addComponent(__ACEPTARCORREO)
                         .addGap(111, 111, 111)
-                        .addComponent(__SALIRCORREO)))
+                        .addComponent(__SALIRCORRE)))
                 .addContainerGap(18, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
@@ -129,7 +129,7 @@ public class Correo extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(__ACEPTARCORREO)
-                    .addComponent(__SALIRCORREO))
+                    .addComponent(__SALIRCORRE))
                 .addContainerGap(32, Short.MAX_VALUE))
         );
 
@@ -176,7 +176,7 @@ public class Correo extends javax.swing.JFrame {
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton __ACEPTARCORREO;
-    private javax.swing.JButton __SALIRCORREO;
+    private javax.swing.JButton __SALIRCORRE;
     private javax.swing.JTextField __correo;
     private javax.swing.ButtonGroup __grpOpciones;
     private javax.swing.JRadioButton __optAmbos;

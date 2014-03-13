@@ -238,7 +238,7 @@
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Component id="__CANCELARCONMOV" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jButton9" min="-2" max="-2" attributes="0"/>
+                              <Component id="__SALIRMOV" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
@@ -261,7 +261,7 @@
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="__CANCELARCONMOV" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="__SALIRMOV" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="__NUEVACONSULTAMOV" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="32767" attributes="0"/>
@@ -1064,7 +1064,7 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Component class="javax.swing.JButton" name="jButton9">
+            <Component class="javax.swing.JButton" name="__SALIRMOV">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Salir"/>
               </Properties>
