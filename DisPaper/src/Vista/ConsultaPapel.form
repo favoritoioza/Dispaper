@@ -246,7 +246,7 @@
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Component id="__CANCELARCONMOV" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jButton9" min="-2" max="-2" attributes="0"/>
+                              <Component id="__SALIRMOV" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
@@ -269,7 +269,7 @@
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="__CANCELARCONMOV" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="__SALIRMOV" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="__NUEVACONSULTAMOV" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="32767" attributes="0"/>
@@ -1072,7 +1072,7 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Component class="javax.swing.JButton" name="jButton9">
+            <Component class="javax.swing.JButton" name="__SALIRMOV">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Salir"/>
               </Properties>
@@ -1116,11 +1116,11 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" attributes="0">
                                       <EmptySpace min="-2" pref="262" max="-2" attributes="0"/>
-                                      <Component id="__NUEVACONSULTAMOV1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="__NUEVACONSULTADOCU" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="__CANCELARCONMOV1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="__CANCELARCONDOCU" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="jButton10" min="-2" max="-2" attributes="0"/>
+                                      <Component id="__SALIRDOCU" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
@@ -1169,9 +1169,9 @@
                       </Group>
                       <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="__CANCELARCONMOV1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton10" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="__NUEVACONSULTAMOV1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="__CANCELARCONDOCU" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="__SALIRDOCU" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="__NUEVACONSULTADOCU" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace pref="129" max="32767" attributes="0"/>
                   </Group>
@@ -1216,9 +1216,9 @@
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="__etqDocuDesdeDocu" min="-2" pref="133" max="-2" attributes="0"/>
+                              <Component id="__docuDesdeDocu" min="-2" pref="133" max="-2" attributes="0"/>
                               <Component id="__dateDesdeDocu" min="-2" pref="133" max="-2" attributes="0"/>
-                              <Component id="__etqMoviDesdeDocu" min="-2" pref="133" max="-2" attributes="0"/>
+                              <Component id="__moviDesdeDocu" min="-2" pref="133" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace pref="42" max="32767" attributes="0"/>
                       </Group>
@@ -1230,7 +1230,7 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel32" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="__etqDocuDesdeDocu" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <Component id="__docuDesdeDocu" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="1" attributes="0">
@@ -1240,7 +1240,7 @@
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel33" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="__etqMoviDesdeDocu" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <Component id="__moviDesdeDocu" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="32767" attributes="0"/>
                       </Group>
@@ -1272,19 +1272,19 @@
                     <Property name="text" type="java.lang.String" value="Movimiento:"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="__etqDocuDesdeDocu">
+                <Component class="javax.swing.JTextField" name="__docuDesdeDocu">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Papyrus" size="14" style="0"/>
                     </Property>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="__etqDocuDesdeDocuActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="__docuDesdeDocuActionPerformed"/>
                   </Events>
                 </Component>
                 <Component class="com.toedter.calendar.JDateChooser" name="__dateDesdeDocu">
                 </Component>
-                <Component class="javax.swing.JTextField" name="__etqMoviDesdeDocu">
+                <Component class="javax.swing.JTextField" name="__moviDesdeDocu">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Papyrus" size="14" style="0"/>
@@ -1314,9 +1314,9 @@
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="__etqDocuHastaDocu" alignment="0" min="-2" pref="133" max="-2" attributes="0"/>
+                              <Component id="__docuHastaDocu" alignment="0" min="-2" pref="133" max="-2" attributes="0"/>
                               <Component id="__dateHastaDocu" alignment="0" min="-2" pref="133" max="-2" attributes="0"/>
-                              <Component id="__etqMoviHastaDocu" alignment="0" min="-2" pref="133" max="-2" attributes="0"/>
+                              <Component id="__moviHastaDocu" alignment="0" min="-2" pref="133" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace pref="37" max="32767" attributes="0"/>
                       </Group>
@@ -1328,7 +1328,7 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel34" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="__etqDocuHastaDocu" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <Component id="__docuHastaDocu" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="1" attributes="0">
@@ -1338,7 +1338,7 @@
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel36" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="__etqMoviHastaDocu" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <Component id="__moviHastaDocu" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace pref="26" max="32767" attributes="0"/>
                       </Group>
@@ -1370,19 +1370,19 @@
                     <Property name="text" type="java.lang.String" value="Movimiento:"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="__etqDocuHastaDocu">
+                <Component class="javax.swing.JTextField" name="__docuHastaDocu">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Papyrus" size="14" style="0"/>
                     </Property>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="__etqDocuHastaDocuActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="__docuHastaDocuActionPerformed"/>
                   </Events>
                 </Component>
                 <Component class="com.toedter.calendar.JDateChooser" name="__dateHastaDocu">
                 </Component>
-                <Component class="javax.swing.JTextField" name="__etqMoviHastaDocu">
+                <Component class="javax.swing.JTextField" name="__moviHastaDocu">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Papyrus" size="14" style="0"/>
@@ -1391,20 +1391,20 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Component class="javax.swing.JButton" name="__NUEVACONSULTAMOV1">
+            <Component class="javax.swing.JButton" name="__NUEVACONSULTADOCU">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Nueva Consulta"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="__CANCELARCONMOV1">
+            <Component class="javax.swing.JButton" name="__CANCELARCONDOCU">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Cancelar"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="__CANCELARCONMOV1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="__CANCELARCONDOCUActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton10">
+            <Component class="javax.swing.JButton" name="__SALIRDOCU">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Salir"/>
               </Properties>

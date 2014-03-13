@@ -84,7 +84,7 @@ public class ConsultaPapel extends javax.swing.JFrame {
         __chkTurno2HastaMov = new javax.swing.JCheckBox();
         __chkTurno3HastaMov = new javax.swing.JCheckBox();
         jLabel29 = new javax.swing.JLabel();
-        jButton9 = new javax.swing.JButton();
+        __SALIRMOV = new javax.swing.JButton();
         __CANCELARCONMOV = new javax.swing.JButton();
         __NUEVACONSULTAMOV = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
@@ -94,19 +94,19 @@ public class ConsultaPapel extends javax.swing.JFrame {
         jLabel32 = new javax.swing.JLabel();
         jLabel31 = new javax.swing.JLabel();
         jLabel33 = new javax.swing.JLabel();
-        __etqDocuDesdeDocu = new javax.swing.JTextField();
+        __docuDesdeDocu = new javax.swing.JTextField();
         __dateDesdeDocu = new com.toedter.calendar.JDateChooser();
-        __etqMoviDesdeDocu = new javax.swing.JTextField();
+        __moviDesdeDocu = new javax.swing.JTextField();
         jPanel14 = new javax.swing.JPanel();
         jLabel34 = new javax.swing.JLabel();
         jLabel35 = new javax.swing.JLabel();
         jLabel36 = new javax.swing.JLabel();
-        __etqDocuHastaDocu = new javax.swing.JTextField();
+        __docuHastaDocu = new javax.swing.JTextField();
         __dateHastaDocu = new com.toedter.calendar.JDateChooser();
-        __etqMoviHastaDocu = new javax.swing.JTextField();
-        __NUEVACONSULTAMOV1 = new javax.swing.JButton();
-        __CANCELARCONMOV1 = new javax.swing.JButton();
-        jButton10 = new javax.swing.JButton();
+        __moviHastaDocu = new javax.swing.JTextField();
+        __NUEVACONSULTADOCU = new javax.swing.JButton();
+        __CANCELARCONDOCU = new javax.swing.JButton();
+        __SALIRDOCU = new javax.swing.JButton();
         jLabel37 = new javax.swing.JLabel();
         jLabel38 = new javax.swing.JLabel();
         jLabel39 = new javax.swing.JLabel();
@@ -651,7 +651,7 @@ public class ConsultaPapel extends javax.swing.JFrame {
                     .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
 
-        jButton9.setText("Salir");
+        __SALIRMOV.setText("Salir");
 
         __CANCELARCONMOV.setText("Cancelar");
         __CANCELARCONMOV.addActionListener(new java.awt.event.ActionListener() {
@@ -685,7 +685,7 @@ public class ConsultaPapel extends javax.swing.JFrame {
                         .addGap(18, 18, 18)
                         .addComponent(__CANCELARCONMOV)
                         .addGap(18, 18, 18)
-                        .addComponent(jButton9)))
+                        .addComponent(__SALIRMOV)))
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
@@ -702,7 +702,7 @@ public class ConsultaPapel extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(__CANCELARCONMOV)
-                    .addComponent(jButton9)
+                    .addComponent(__SALIRMOV)
                     .addComponent(__NUEVACONSULTAMOV))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -726,14 +726,14 @@ public class ConsultaPapel extends javax.swing.JFrame {
         jLabel33.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
         jLabel33.setText("Movimiento:");
 
-        __etqDocuDesdeDocu.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
-        __etqDocuDesdeDocu.addActionListener(new java.awt.event.ActionListener() {
+        __docuDesdeDocu.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+        __docuDesdeDocu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                __etqDocuDesdeDocuActionPerformed(evt);
+                __docuDesdeDocuActionPerformed(evt);
             }
         });
 
-        __etqMoviDesdeDocu.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+        __moviDesdeDocu.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
 
         javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
         jPanel13.setLayout(jPanel13Layout);
@@ -747,9 +747,9 @@ public class ConsultaPapel extends javax.swing.JFrame {
                     .addComponent(jLabel32))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(__etqDocuDesdeDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(__docuDesdeDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(__dateDesdeDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(__etqMoviDesdeDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(__moviDesdeDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(42, Short.MAX_VALUE))
         );
         jPanel13Layout.setVerticalGroup(
@@ -758,7 +758,7 @@ public class ConsultaPapel extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel32)
-                    .addComponent(__etqDocuDesdeDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(__docuDesdeDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel31)
@@ -766,7 +766,7 @@ public class ConsultaPapel extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel33)
-                    .addComponent(__etqMoviDesdeDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(__moviDesdeDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -781,14 +781,14 @@ public class ConsultaPapel extends javax.swing.JFrame {
         jLabel36.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
         jLabel36.setText("Movimiento:");
 
-        __etqDocuHastaDocu.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
-        __etqDocuHastaDocu.addActionListener(new java.awt.event.ActionListener() {
+        __docuHastaDocu.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+        __docuHastaDocu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                __etqDocuHastaDocuActionPerformed(evt);
+                __docuHastaDocuActionPerformed(evt);
             }
         });
 
-        __etqMoviHastaDocu.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+        __moviHastaDocu.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
 
         javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
         jPanel14.setLayout(jPanel14Layout);
@@ -802,9 +802,9 @@ public class ConsultaPapel extends javax.swing.JFrame {
                     .addComponent(jLabel34))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(__etqDocuHastaDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(__docuHastaDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(__dateHastaDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(__etqMoviHastaDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(__moviHastaDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(37, Short.MAX_VALUE))
         );
         jPanel14Layout.setVerticalGroup(
@@ -813,7 +813,7 @@ public class ConsultaPapel extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel34)
-                    .addComponent(__etqDocuHastaDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(__docuHastaDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel35)
@@ -821,20 +821,20 @@ public class ConsultaPapel extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel36)
-                    .addComponent(__etqMoviHastaDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(__moviHastaDocu, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(26, Short.MAX_VALUE))
         );
 
-        __NUEVACONSULTAMOV1.setText("Nueva Consulta");
+        __NUEVACONSULTADOCU.setText("Nueva Consulta");
 
-        __CANCELARCONMOV1.setText("Cancelar");
-        __CANCELARCONMOV1.addActionListener(new java.awt.event.ActionListener() {
+        __CANCELARCONDOCU.setText("Cancelar");
+        __CANCELARCONDOCU.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                __CANCELARCONMOV1ActionPerformed(evt);
+                __CANCELARCONDOCUActionPerformed(evt);
             }
         });
 
-        jButton10.setText("Salir");
+        __SALIRDOCU.setText("Salir");
 
         jLabel37.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
         jLabel37.setText(">>>>>>>>>>");
@@ -860,11 +860,11 @@ public class ConsultaPapel extends javax.swing.JFrame {
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addGap(262, 262, 262)
-                                .addComponent(__NUEVACONSULTAMOV1)
+                                .addComponent(__NUEVACONSULTADOCU)
                                 .addGap(18, 18, 18)
-                                .addComponent(__CANCELARCONMOV1)
+                                .addComponent(__CANCELARCONDOCU)
                                 .addGap(18, 18, 18)
-                                .addComponent(jButton10))
+                                .addComponent(__SALIRDOCU))
                             .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addGap(72, 72, 72)
                                 .addComponent(jPanel13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -900,9 +900,9 @@ public class ConsultaPapel extends javax.swing.JFrame {
                         .addComponent(jLabel38)))
                 .addGap(51, 51, 51)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(__CANCELARCONMOV1)
-                    .addComponent(jButton10)
-                    .addComponent(__NUEVACONSULTAMOV1))
+                    .addComponent(__CANCELARCONDOCU)
+                    .addComponent(__SALIRDOCU)
+                    .addComponent(__NUEVACONSULTADOCU))
                 .addContainerGap(129, Short.MAX_VALUE))
         );
 
@@ -1075,17 +1075,17 @@ public class ConsultaPapel extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event___CANCELARCONMOVActionPerformed
 
-    private void __etqDocuDesdeDocuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___etqDocuDesdeDocuActionPerformed
+    private void __docuDesdeDocuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___docuDesdeDocuActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event___etqDocuDesdeDocuActionPerformed
+    }//GEN-LAST:event___docuDesdeDocuActionPerformed
 
-    private void __etqDocuHastaDocuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___etqDocuHastaDocuActionPerformed
+    private void __docuHastaDocuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___docuHastaDocuActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event___etqDocuHastaDocuActionPerformed
+    }//GEN-LAST:event___docuHastaDocuActionPerformed
 
-    private void __CANCELARCONMOV1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___CANCELARCONMOV1ActionPerformed
+    private void __CANCELARCONDOCUActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___CANCELARCONDOCUActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event___CANCELARCONMOV1ActionPerformed
+    }//GEN-LAST:event___CANCELARCONDOCUActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1123,10 +1123,12 @@ public class ConsultaPapel extends javax.swing.JFrame {
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField __Alto_10;
+    private javax.swing.JButton __CANCELARCONDOCU;
     private javax.swing.JButton __CANCELARCONMOV;
-    private javax.swing.JButton __CANCELARCONMOV1;
+    private javax.swing.JButton __NUEVACONSULTADOCU;
     private javax.swing.JButton __NUEVACONSULTAMOV;
-    private javax.swing.JButton __NUEVACONSULTAMOV1;
+    private javax.swing.JButton __SALIRDOCU;
+    private javax.swing.JButton __SALIRMOV;
     private javax.swing.JCheckBox __chkDevoluDesdeMov;
     private javax.swing.JCheckBox __chkDevoluHastaMov;
     private javax.swing.JCheckBox __chkEntrDesdeMov;
@@ -1146,14 +1148,12 @@ public class ConsultaPapel extends javax.swing.JFrame {
     private com.toedter.calendar.JDateChooser __dateDesdeMov;
     private com.toedter.calendar.JDateChooser __dateHastaDocu;
     private com.toedter.calendar.JDateChooser __dateHastaMov;
-    private javax.swing.JTextField __etqDocuDesdeDocu;
+    private javax.swing.JTextField __docuDesdeDocu;
+    private javax.swing.JTextField __docuHastaDocu;
     private javax.swing.JTextField __etqDocuDesdeMov;
-    private javax.swing.JTextField __etqDocuHastaDocu;
     private javax.swing.JTextField __etqDocuHastaMov;
     private javax.swing.JLabel __etqFechaConDocu;
     private javax.swing.JLabel __etqFechaConMov;
-    private javax.swing.JTextField __etqMoviDesdeDocu;
-    private javax.swing.JTextField __etqMoviHastaDocu;
     private javax.swing.JTextField __etqOrdenCompraDesdeMov;
     private javax.swing.JTextField __etqOrdenCompraHastaMov;
     private javax.swing.JTextField __etqOrdenProdDesdeMov;
@@ -1162,8 +1162,8 @@ public class ConsultaPapel extends javax.swing.JFrame {
     private javax.swing.JTextField __etqPediHastaMov;
     private javax.swing.JTextField __etqProvDesdeMov;
     private javax.swing.JTextField __etqProvHastaMov;
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton9;
+    private javax.swing.JTextField __moviDesdeDocu;
+    private javax.swing.JTextField __moviHastaDocu;
     private javax.swing.JCheckBox jCheckBox7;
     private javax.swing.JCheckBox jCheckBox8;
     private javax.swing.JCheckBox jCheckBox9;
