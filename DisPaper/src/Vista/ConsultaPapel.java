@@ -114,7 +114,6 @@ public class ConsultaPapel extends javax.swing.JFrame {
         jMenu1 = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
         jMenuItem12 = new javax.swing.JMenuItem();
-        jMenuItem2 = new javax.swing.JMenuItem();
         jMenuItem3 = new javax.swing.JMenuItem();
         jMenuItem4 = new javax.swing.JMenuItem();
         jMenuItem5 = new javax.swing.JMenuItem();
@@ -928,10 +927,6 @@ public class ConsultaPapel extends javax.swing.JFrame {
         });
         jMenu1.add(jMenuItem12);
 
-        jMenuItem2.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_Q, java.awt.event.InputEvent.CTRL_MASK));
-        jMenuItem2.setText("Consultas");
-        jMenu1.add(jMenuItem2);
-
         jMenuItem3.setText("Generar un reporte...");
         jMenu1.add(jMenuItem3);
 
@@ -990,14 +985,6 @@ public class ConsultaPapel extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem1ActionPerformed
-
-    private void jMenuItem12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem12ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem12ActionPerformed
 
     private void jMenuItem6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem6ActionPerformed
         // TODO add your handling code here:
@@ -1086,6 +1073,14 @@ public class ConsultaPapel extends javax.swing.JFrame {
     private void __CANCELARCONMOV1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___CANCELARCONMOV1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event___CANCELARCONMOV1ActionPerformed
+
+    private void jMenuItem12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem12ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItem12ActionPerformed
+
+    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1201,7 +1196,6 @@ public class ConsultaPapel extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem10;
     private javax.swing.JMenuItem jMenuItem11;
     private javax.swing.JMenuItem jMenuItem12;
-    private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JMenuItem jMenuItem5;
