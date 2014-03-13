@@ -262,16 +262,25 @@
       <SubComponents>
         <Component class="javax.swing.JRadioButton" name="__OptBobina">
           <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="__grpClasePapel"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Bobina"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JRadioButton" name="__OptHoja">
           <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="__grpClasePapel"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Hoja"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JRadioButton" name="__OptAmbos">
           <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="__grpClasePapel"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Ambos"/>
           </Properties>
         </Component>

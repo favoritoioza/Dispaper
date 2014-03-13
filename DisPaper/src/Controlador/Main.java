@@ -12,11 +12,7 @@ import Vista.Splash;
  */
 public class Main {
     public static void main(String[] args) {
-        //se ejecuta controlador
-//        new jControlador( new Login() ).iniciar();
-        //new jControlador(new Splash()).iniciar();
-        
-        
+        System.out.println("ola mundo");
     }
     
 }

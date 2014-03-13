@@ -31,16 +31,16 @@ public class NewUser extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-        __OrdenProduccionEntr = new javax.swing.JTextField();
-        __OrdenProduccionEntr1 = new javax.swing.JTextField();
-        __OrdenProduccionEntr2 = new javax.swing.JTextField();
-        __OrdenProduccionEntr3 = new javax.swing.JTextField();
-        __ACEPTARENTRADA = new javax.swing.JButton();
-        __ACEPTARENTRADA1 = new javax.swing.JButton();
-        __ACEPTARENTRADA2 = new javax.swing.JButton();
-        jRadioButton1 = new javax.swing.JRadioButton();
-        jRadioButton2 = new javax.swing.JRadioButton();
-        jRadioButton3 = new javax.swing.JRadioButton();
+        __pswd2 = new javax.swing.JTextField();
+        __nombreUser = new javax.swing.JTextField();
+        __User = new javax.swing.JTextField();
+        __pswd = new javax.swing.JTextField();
+        __NEWUSER = new javax.swing.JButton();
+        __CANCELAR = new javax.swing.JButton();
+        __ACEPTAR = new javax.swing.JButton();
+        __optMaster = new javax.swing.JRadioButton();
+        __optJunior = new javax.swing.JRadioButton();
+        __optKid = new javax.swing.JRadioButton();
         jLabel8 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
@@ -53,7 +53,6 @@ public class NewUser extends javax.swing.JFrame {
         jMenuItem5 = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
         jMenuItem6 = new javax.swing.JMenuItem();
-        jMenuItem7 = new javax.swing.JMenuItem();
         jMenuItem8 = new javax.swing.JMenuItem();
         jMenuItem9 = new javax.swing.JMenuItem();
         jMenuItem10 = new javax.swing.JMenuItem();
@@ -73,25 +72,28 @@ public class NewUser extends javax.swing.JFrame {
         jLabel7.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
         jLabel7.setText("Repite la contraseña:");
 
-        __OrdenProduccionEntr.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+        __pswd2.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
 
-        __OrdenProduccionEntr1.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+        __nombreUser.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
 
-        __OrdenProduccionEntr2.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+        __User.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
 
-        __OrdenProduccionEntr3.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
+        __pswd.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
 
-        __ACEPTARENTRADA.setText("Nuevo Usuario");
+        __NEWUSER.setText("Nuevo Usuario");
 
-        __ACEPTARENTRADA1.setText("Cacelar");
+        __CANCELAR.setText("Cancelar");
 
-        __ACEPTARENTRADA2.setText("Aceptar");
+        __ACEPTAR.setText("Aceptar");
 
-        jRadioButton1.setText("Master");
+        __grpNivelUser.add(__optMaster);
+        __optMaster.setText("Master");
 
-        jRadioButton2.setText("Junior");
+        __grpNivelUser.add(__optJunior);
+        __optJunior.setText("Junior");
 
-        jRadioButton3.setText("Kid");
+        __grpNivelUser.add(__optKid);
+        __optKid.setText("Kid");
 
         jLabel8.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
         jLabel8.setText("Selecciona el nivel de acceso al sistema del nuevo usuario:");
@@ -147,9 +149,6 @@ public class NewUser extends javax.swing.JFrame {
         });
         jMenu2.add(jMenuItem6);
 
-        jMenuItem7.setText("Nuevo Usuario...");
-        jMenu2.add(jMenuItem7);
-
         jMenuItem8.setText("Cambiar mi Contraseña");
         jMenu2.add(jMenuItem8);
 
@@ -185,23 +184,23 @@ public class NewUser extends javax.swing.JFrame {
                                     .addComponent(jLabel6))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(__OrdenProduccionEntr2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 221, Short.MAX_VALUE)
-                                    .addComponent(__OrdenProduccionEntr1)
-                                    .addComponent(__OrdenProduccionEntr3, javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(__OrdenProduccionEntr)))
+                                    .addComponent(__User, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 221, Short.MAX_VALUE)
+                                    .addComponent(__nombreUser)
+                                    .addComponent(__pswd, javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(__pswd2)))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(76, 76, 76)
                                 .addComponent(jLabel2))))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(61, 61, 61)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(__ACEPTARENTRADA1)
+                            .addComponent(__CANCELAR)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jRadioButton1)
+                                .addComponent(__optMaster)
                                 .addGap(49, 49, 49)
-                                .addComponent(jRadioButton2)))
+                                .addComponent(__optJunior)))
                         .addGap(48, 48, 48)
-                        .addComponent(jRadioButton3))
+                        .addComponent(__optKid))
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -209,9 +208,9 @@ public class NewUser extends javax.swing.JFrame {
                                 .addComponent(jLabel8)
                                 .addGap(0, 8, Short.MAX_VALUE))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(__ACEPTARENTRADA)
+                                .addComponent(__NEWUSER)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(__ACEPTARENTRADA2)))))
+                                .addComponent(__ACEPTAR)))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -222,31 +221,31 @@ public class NewUser extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
-                    .addComponent(__OrdenProduccionEntr1, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(__nombreUser, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel5)
-                    .addComponent(__OrdenProduccionEntr2, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(__User, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(__OrdenProduccionEntr3, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(__pswd, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel6))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(__OrdenProduccionEntr, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(__pswd2, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel7))
                 .addGap(4, 4, 4)
                 .addComponent(jLabel8)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jRadioButton1)
-                    .addComponent(jRadioButton2)
-                    .addComponent(jRadioButton3))
+                    .addComponent(__optMaster)
+                    .addComponent(__optJunior)
+                    .addComponent(__optKid))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(__ACEPTARENTRADA)
-                    .addComponent(__ACEPTARENTRADA1)
-                    .addComponent(__ACEPTARENTRADA2))
+                    .addComponent(__NEWUSER)
+                    .addComponent(__CANCELAR)
+                    .addComponent(__ACEPTAR))
                 .addContainerGap(19, Short.MAX_VALUE))
         );
 
@@ -300,14 +299,17 @@ public class NewUser extends javax.swing.JFrame {
         });
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton __ACEPTARENTRADA;
-    private javax.swing.JButton __ACEPTARENTRADA1;
-    private javax.swing.JButton __ACEPTARENTRADA2;
-    private javax.swing.JTextField __OrdenProduccionEntr;
-    private javax.swing.JTextField __OrdenProduccionEntr1;
-    private javax.swing.JTextField __OrdenProduccionEntr2;
-    private javax.swing.JTextField __OrdenProduccionEntr3;
+    private javax.swing.JButton __ACEPTAR;
+    private javax.swing.JButton __CANCELAR;
+    private javax.swing.JButton __NEWUSER;
+    private javax.swing.JTextField __User;
     private javax.swing.ButtonGroup __grpNivelUser;
+    private javax.swing.JTextField __nombreUser;
+    private javax.swing.JRadioButton __optJunior;
+    private javax.swing.JRadioButton __optKid;
+    private javax.swing.JRadioButton __optMaster;
+    private javax.swing.JTextField __pswd;
+    private javax.swing.JTextField __pswd2;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
@@ -326,11 +328,7 @@ public class NewUser extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JMenuItem jMenuItem5;
     private javax.swing.JMenuItem jMenuItem6;
-    private javax.swing.JMenuItem jMenuItem7;
     private javax.swing.JMenuItem jMenuItem8;
     private javax.swing.JMenuItem jMenuItem9;
-    private javax.swing.JRadioButton jRadioButton1;
-    private javax.swing.JRadioButton jRadioButton2;
-    private javax.swing.JRadioButton jRadioButton3;
     // End of variables declaration//GEN-END:variables
 }

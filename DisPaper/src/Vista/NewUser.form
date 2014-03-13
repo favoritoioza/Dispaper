@@ -80,11 +80,6 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem6ActionPerformed"/>
               </Events>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem7">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Nuevo Usuario..."/>
-              </Properties>
-            </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem8">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Cambiar mi Contrase&#xf1;a"/>
@@ -153,10 +148,10 @@
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="__OrdenProduccionEntr2" alignment="1" pref="221" max="32767" attributes="0"/>
-                                  <Component id="__OrdenProduccionEntr1" max="32767" attributes="0"/>
-                                  <Component id="__OrdenProduccionEntr3" alignment="1" max="32767" attributes="0"/>
-                                  <Component id="__OrdenProduccionEntr" max="32767" attributes="0"/>
+                                  <Component id="__User" alignment="1" pref="221" max="32767" attributes="0"/>
+                                  <Component id="__nombreUser" max="32767" attributes="0"/>
+                                  <Component id="__pswd" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="__pswd2" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
@@ -168,15 +163,15 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="__ACEPTARENTRADA1" min="-2" max="-2" attributes="0"/>
+                          <Component id="__CANCELAR" min="-2" max="-2" attributes="0"/>
                           <Group type="102" attributes="0">
-                              <Component id="jRadioButton1" min="-2" max="-2" attributes="0"/>
+                              <Component id="__optMaster" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
-                              <Component id="jRadioButton2" min="-2" max="-2" attributes="0"/>
+                              <Component id="__optJunior" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
-                      <Component id="jRadioButton3" min="-2" max="-2" attributes="0"/>
+                      <Component id="__optKid" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
@@ -186,9 +181,9 @@
                               <EmptySpace min="0" pref="8" max="32767" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="__ACEPTARENTRADA" min="-2" max="-2" attributes="0"/>
+                              <Component id="__NEWUSER" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="32767" attributes="0"/>
-                              <Component id="__ACEPTARENTRADA2" min="-2" max="-2" attributes="0"/>
+                              <Component id="__ACEPTAR" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -205,36 +200,36 @@
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="__OrdenProduccionEntr1" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="__nombreUser" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="__OrdenProduccionEntr2" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="__User" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="__OrdenProduccionEntr3" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="__pswd" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
                   <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="__OrdenProduccionEntr" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="__pswd2" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
                   <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
               <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jRadioButton1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jRadioButton2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jRadioButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="__optMaster" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="__optJunior" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="__optKid" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="__ACEPTARENTRADA" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="__ACEPTARENTRADA1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="__ACEPTARENTRADA2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="__NEWUSER" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="__CANCELAR" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="__ACEPTAR" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="19" max="32767" attributes="0"/>
           </Group>
@@ -274,61 +269,70 @@
         <Property name="text" type="java.lang.String" value="Repite la contrase&#xf1;a:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="__OrdenProduccionEntr">
+    <Component class="javax.swing.JTextField" name="__pswd2">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Papyrus" size="14" style="0"/>
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="__OrdenProduccionEntr1">
+    <Component class="javax.swing.JTextField" name="__nombreUser">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Papyrus" size="14" style="0"/>
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="__OrdenProduccionEntr2">
+    <Component class="javax.swing.JTextField" name="__User">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Papyrus" size="14" style="0"/>
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="__OrdenProduccionEntr3">
+    <Component class="javax.swing.JTextField" name="__pswd">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Papyrus" size="14" style="0"/>
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="__ACEPTARENTRADA">
+    <Component class="javax.swing.JButton" name="__NEWUSER">
       <Properties>
         <Property name="text" type="java.lang.String" value="Nuevo Usuario"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="__ACEPTARENTRADA1">
+    <Component class="javax.swing.JButton" name="__CANCELAR">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Cacelar"/>
+        <Property name="text" type="java.lang.String" value="Cancelar"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="__ACEPTARENTRADA2">
+    <Component class="javax.swing.JButton" name="__ACEPTAR">
       <Properties>
         <Property name="text" type="java.lang.String" value="Aceptar"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JRadioButton" name="jRadioButton1">
+    <Component class="javax.swing.JRadioButton" name="__optMaster">
       <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="__grpNivelUser"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Master"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JRadioButton" name="jRadioButton2">
+    <Component class="javax.swing.JRadioButton" name="__optJunior">
       <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="__grpNivelUser"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Junior"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JRadioButton" name="jRadioButton3">
+    <Component class="javax.swing.JRadioButton" name="__optKid">
       <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="__grpNivelUser"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Kid"/>
       </Properties>
     </Component>
