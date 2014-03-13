@@ -16,10 +16,7 @@ public class Main {
 //        new jControlador( new Login() ).iniciar();
         //new jControlador(new Splash()).iniciar();
         
-        //IRVING OLDAYR
         
-        
-        //OLA MUNFDO
     }
     
 }
