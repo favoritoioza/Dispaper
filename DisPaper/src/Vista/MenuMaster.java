@@ -26,41 +26,41 @@ public class MenuMaster extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        __INICIA_SESION = new javax.swing.JButton();
-        __INICIA_SESION1 = new javax.swing.JButton();
-        __INICIA_SESION2 = new javax.swing.JButton();
-        __INICIA_SESION3 = new javax.swing.JButton();
-        __INICIA_SESION4 = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        __ALTA_PAPEL = new javax.swing.JButton();
+        __CONSULTAS = new javax.swing.JButton();
+        __MOVIMIENTOS = new javax.swing.JButton();
+        __REPORTES = new javax.swing.JButton();
+        __CANCELAR = new javax.swing.JButton();
+        __etqFechaMenuMaster = new javax.swing.JLabel();
+        __etqUsuarioMenuMaster = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        __INICIA_SESION.setFont(new java.awt.Font("Elephant", 0, 12)); // NOI18N
-        __INICIA_SESION.setText("NUEVA ALTA DE PAPEL");
+        __ALTA_PAPEL.setFont(new java.awt.Font("Elephant", 0, 12)); // NOI18N
+        __ALTA_PAPEL.setText("NUEVA ALTA DE PAPEL");
 
-        __INICIA_SESION1.setFont(new java.awt.Font("Elephant", 0, 12)); // NOI18N
-        __INICIA_SESION1.setText("CONSULTAS");
+        __CONSULTAS.setFont(new java.awt.Font("Elephant", 0, 12)); // NOI18N
+        __CONSULTAS.setText("CONSULTAS");
 
-        __INICIA_SESION2.setFont(new java.awt.Font("Elephant", 0, 12)); // NOI18N
-        __INICIA_SESION2.setText("MOVIMIENTOS");
+        __MOVIMIENTOS.setFont(new java.awt.Font("Elephant", 0, 12)); // NOI18N
+        __MOVIMIENTOS.setText("MOVIMIENTOS");
 
-        __INICIA_SESION3.setFont(new java.awt.Font("Elephant", 0, 12)); // NOI18N
-        __INICIA_SESION3.setText("REPORTES");
-        __INICIA_SESION3.addActionListener(new java.awt.event.ActionListener() {
+        __REPORTES.setFont(new java.awt.Font("Elephant", 0, 12)); // NOI18N
+        __REPORTES.setText("REPORTES");
+        __REPORTES.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                __INICIA_SESION3ActionPerformed(evt);
+                __REPORTESActionPerformed(evt);
             }
         });
 
-        __INICIA_SESION4.setFont(new java.awt.Font("Elephant", 0, 12)); // NOI18N
-        __INICIA_SESION4.setText("CANCELAR");
+        __CANCELAR.setFont(new java.awt.Font("Elephant", 0, 12)); // NOI18N
+        __CANCELAR.setText("CANCELAR");
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel1.setText("DD/MM/AAAA");
+        __etqFechaMenuMaster.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        __etqFechaMenuMaster.setText("DD/MM/AAAA");
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel2.setText("USUARIO");
+        __etqUsuarioMenuMaster.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        __etqUsuarioMenuMaster.setText("USUARIO");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -69,20 +69,25 @@ public class MenuMaster extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(__INICIA_SESION)
-                            .addComponent(__INICIA_SESION3, javax.swing.GroupLayout.PREFERRED_SIZE, 199, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(__INICIA_SESION2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(__INICIA_SESION1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(__INICIA_SESION4, javax.swing.GroupLayout.DEFAULT_SIZE, 199, Short.MAX_VALUE))
+                        .addGap(205, 205, 205)
+                        .addComponent(__CANCELAR, javax.swing.GroupLayout.PREFERRED_SIZE, 199, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jLabel2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel1)))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addComponent(__etqUsuarioMenuMaster)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(__etqFechaMenuMaster))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addComponent(__REPORTES, javax.swing.GroupLayout.PREFERRED_SIZE, 199, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(__CONSULTAS, javax.swing.GroupLayout.PREFERRED_SIZE, 199, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addGap(0, 0, Short.MAX_VALUE)
+                                .addComponent(__ALTA_PAPEL)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(__MOVIMIENTOS, javax.swing.GroupLayout.PREFERRED_SIZE, 199, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -90,27 +95,27 @@ public class MenuMaster extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(19, 19, 19)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
-                    .addComponent(jLabel2))
+                    .addComponent(__etqFechaMenuMaster)
+                    .addComponent(__etqUsuarioMenuMaster))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(__INICIA_SESION, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(__INICIA_SESION2, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(__ALTA_PAPEL, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(__MOVIMIENTOS, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(__INICIA_SESION1, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(__INICIA_SESION3, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(__CONSULTAS, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(__REPORTES, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 62, Short.MAX_VALUE)
-                .addComponent(__INICIA_SESION4, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(__CANCELAR, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void __INICIA_SESION3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___INICIA_SESION3ActionPerformed
+    private void __REPORTESActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___REPORTESActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event___INICIA_SESION3ActionPerformed
+    }//GEN-LAST:event___REPORTESActionPerformed
 
     /**
      * @param args the command line arguments
@@ -147,12 +152,12 @@ public class MenuMaster extends javax.swing.JFrame {
         });
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton __INICIA_SESION;
-    private javax.swing.JButton __INICIA_SESION1;
-    private javax.swing.JButton __INICIA_SESION2;
-    private javax.swing.JButton __INICIA_SESION3;
-    private javax.swing.JButton __INICIA_SESION4;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
+    public javax.swing.JButton __ALTA_PAPEL;
+    public javax.swing.JButton __CANCELAR;
+    public javax.swing.JButton __CONSULTAS;
+    public javax.swing.JButton __MOVIMIENTOS;
+    public javax.swing.JButton __REPORTES;
+    public javax.swing.JLabel __etqFechaMenuMaster;
+    public javax.swing.JLabel __etqUsuarioMenuMaster;
     // End of variables declaration//GEN-END:variables
 }

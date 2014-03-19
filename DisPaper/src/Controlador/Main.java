@@ -4,7 +4,7 @@
  */
 package Controlador;
 
-import Vista.Splash;
+import Vista.Login;
 
 /**
  *
@@ -12,7 +12,7 @@ import Vista.Splash;
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("ola mundo");
+        new jControlador( new Login() ).iniciar();
     }
     
 }

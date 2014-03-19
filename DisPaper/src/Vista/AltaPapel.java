@@ -15,6 +15,8 @@ public class AltaPapel extends javax.swing.JFrame {
      */
     public AltaPapel() {
         initComponents();
+        this.setResizable(false);
+        this.setLocationRelativeTo(null);
     }
 
     /**
@@ -89,9 +91,19 @@ public class AltaPapel extends javax.swing.JFrame {
 
         __grpClasePapel.add(__Bobina);
         __Bobina.setText("Bobina");
+        __Bobina.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                __BobinaActionPerformed(evt);
+            }
+        });
 
         __grpClasePapel.add(__Hoja);
         __Hoja.setText("Hoja");
+        __Hoja.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                __HojaActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -524,6 +536,20 @@ public class AltaPapel extends javax.swing.JFrame {
     private void __SALIRActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___SALIRActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event___SALIRActionPerformed
+
+    private void __BobinaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___BobinaActionPerformed
+        // TODO add your handling code here:
+        this.__Alto_.setVisible(false);
+        this.__etqAlto_.setVisible(false);
+        this.__etqcm_.setVisible(false);
+    }//GEN-LAST:event___BobinaActionPerformed
+
+    private void __HojaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___HojaActionPerformed
+        // TODO add your handling code here:
+        this.__Alto_.setVisible(true);
+        this.__etqAlto_.setVisible(true);
+        this.__etqcm_.setVisible(true);
+    }//GEN-LAST:event___HojaActionPerformed
 
     /**
      * @param args the command line arguments

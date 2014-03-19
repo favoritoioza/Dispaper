@@ -30,11 +30,11 @@ public class Login extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         __Usuario = new javax.swing.JTextField();
-        jLabel4 = new javax.swing.JLabel();
         __Pswd = new javax.swing.JPasswordField();
         jLabel5 = new javax.swing.JLabel();
         __INICIA_SESION = new javax.swing.JButton();
         __SALIR_SISTEMA = new javax.swing.JButton();
+        __etqBloqMayus = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -49,9 +49,6 @@ public class Login extends javax.swing.JFrame {
 
         __Usuario.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
 
-        jLabel4.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
-        jLabel4.setText("Bloq Mayús Activo");
-
         __Pswd.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
 
         jLabel5.setFont(new java.awt.Font("Papyrus", 0, 18)); // NOI18N
@@ -63,40 +60,43 @@ public class Login extends javax.swing.JFrame {
         __SALIR_SISTEMA.setFont(new java.awt.Font("Elephant", 0, 12)); // NOI18N
         __SALIR_SISTEMA.setText("CANCELAR");
 
+        __etqBloqMayus.setFont(new java.awt.Font("Papyrus", 0, 12)); // NOI18N
+        __etqBloqMayus.setText("Bloq Mayús Activo");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel1))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(191, 191, 191)
-                        .addComponent(jLabel2)))
-                .addGap(0, 0, Short.MAX_VALUE))
+                        .addComponent(jLabel2))))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                            .addComponent(jLabel4)
-                            .addGap(182, 182, 182))
-                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(jLabel3, javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(jLabel5, javax.swing.GroupLayout.Alignment.TRAILING))
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(__Usuario)
-                                .addComponent(__Pswd, javax.swing.GroupLayout.DEFAULT_SIZE, 175, Short.MAX_VALUE))
-                            .addGap(130, 130, 130)))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jLabel3)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(__Usuario, javax.swing.GroupLayout.PREFERRED_SIZE, 257, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(__INICIA_SESION)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 97, Short.MAX_VALUE)
-                        .addComponent(__SALIR_SISTEMA)
-                        .addGap(95, 95, 95))))
+                        .addGap(18, 18, 18)
+                        .addComponent(__SALIR_SISTEMA))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jLabel5)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(37, 37, 37)
+                                .addComponent(__etqBloqMayus))
+                            .addGroup(layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(__Pswd, javax.swing.GroupLayout.PREFERRED_SIZE, 257, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addGap(79, 79, 79))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -108,17 +108,17 @@ public class Login extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
                     .addComponent(__Usuario, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(40, 40, 40)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(__Pswd, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel5))
-                .addGap(18, 18, 18)
-                .addComponent(jLabel4)
-                .addGap(49, 49, 49)
+                    .addComponent(jLabel5)
+                    .addComponent(__Pswd, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(35, 35, 35)
+                .addComponent(__etqBloqMayus)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 31, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(__INICIA_SESION, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(__SALIR_SISTEMA, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(__SALIR_SISTEMA, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(__INICIA_SESION, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(50, 50, 50))
         );
 
         pack();
@@ -129,14 +129,14 @@ public class Login extends javax.swing.JFrame {
      */
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton __INICIA_SESION;
-    private javax.swing.JPasswordField __Pswd;
-    private javax.swing.JButton __SALIR_SISTEMA;
-    private javax.swing.JTextField __Usuario;
+    public javax.swing.JButton __INICIA_SESION;
+    public javax.swing.JPasswordField __Pswd;
+    public javax.swing.JButton __SALIR_SISTEMA;
+    public javax.swing.JTextField __Usuario;
+    public javax.swing.JLabel __etqBloqMayus;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     // End of variables declaration//GEN-END:variables
 }
