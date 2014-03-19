@@ -35,7 +35,7 @@ public class AltaPapel extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         __Bobina = new javax.swing.JRadioButton();
         __Hoja = new javax.swing.JRadioButton();
-        __etqFecha = new javax.swing.JLabel();
+        __etqFech = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         __TipoPapel = new javax.swing.JComboBox();
         jLabel5 = new javax.swing.JLabel();
@@ -126,8 +126,8 @@ public class AltaPapel extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        __etqFecha.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        __etqFecha.setText("DD/MM/AAAA");
+        __etqFech.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        __etqFech.setText("DD/MM/AAAA");
 
         jLabel4.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
         jLabel4.setText("Tipo de Papel:");
@@ -239,7 +239,7 @@ public class AltaPapel extends javax.swing.JFrame {
             }
         });
 
-        __SALIR.setText("Salir");
+        __SALIR.setText("Regresar");
         __SALIR.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 __SALIRActionPerformed(evt);
@@ -327,7 +327,7 @@ public class AltaPapel extends javax.swing.JFrame {
                                 .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                                     .addComponent(jLabel2)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(__etqFecha))
+                                    .addComponent(__etqFech))
                                 .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                                     .addComponent(jLabel1)
                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -424,7 +424,7 @@ public class AltaPapel extends javax.swing.JFrame {
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, 49, Short.MAX_VALUE)
-                                    .addComponent(__etqFecha))
+                                    .addComponent(__etqFech))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
@@ -539,16 +539,12 @@ public class AltaPapel extends javax.swing.JFrame {
 
     private void __BobinaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___BobinaActionPerformed
         // TODO add your handling code here:
-        this.__Alto_.setVisible(false);
-        this.__etqAlto_.setVisible(false);
-        this.__etqcm_.setVisible(false);
+        
     }//GEN-LAST:event___BobinaActionPerformed
 
     private void __HojaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event___HojaActionPerformed
         // TODO add your handling code here:
-        this.__Alto_.setVisible(true);
-        this.__etqAlto_.setVisible(true);
-        this.__etqcm_.setVisible(true);
+        
     }//GEN-LAST:event___HojaActionPerformed
 
     /**
@@ -586,30 +582,30 @@ public class AltaPapel extends javax.swing.JFrame {
         });
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextField __Alto_;
+    public javax.swing.JTextField __Alto_;
     private javax.swing.JTextField __Ancho;
-    private javax.swing.JRadioButton __Bobina;
+    public javax.swing.JRadioButton __Bobina;
     private javax.swing.JRadioButton __Cara1;
     private javax.swing.JRadioButton __Cara2;
     private javax.swing.JComboBox __ColorPapel;
     private javax.swing.JButton __GUARDAR;
     private javax.swing.JTextField __Gramaje;
     private javax.swing.JLabel __Gramos;
-    private javax.swing.JRadioButton __Hoja;
+    public javax.swing.JRadioButton __Hoja;
     private javax.swing.JComboBox __Marca;
     private javax.swing.JButton __NUEVO;
     private javax.swing.JLabel __NewMarca;
     private javax.swing.JComboBox __NombrePapel;
     private javax.swing.JComboBox __Propiedad;
-    private javax.swing.JButton __SALIR;
+    public javax.swing.JButton __SALIR;
     private javax.swing.JComboBox __TipoPapel;
-    private javax.swing.JLabel __etqAlto_;
+    public javax.swing.JLabel __etqAlto_;
     private javax.swing.JLabel __etqClave;
-    private javax.swing.JLabel __etqFecha;
+    public javax.swing.JLabel __etqFech;
     private javax.swing.JLabel __etqNewColor;
     private javax.swing.JLabel __etqNewNombre;
     private javax.swing.JLabel __etqNewPropiedad;
-    private javax.swing.JLabel __etqcm_;
+    public javax.swing.JLabel __etqcm_;
     private javax.swing.ButtonGroup __grpCaras;
     private javax.swing.ButtonGroup __grpClasePapel;
     private javax.swing.JLabel jLabel1;
